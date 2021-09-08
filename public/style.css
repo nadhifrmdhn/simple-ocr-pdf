@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #313131;
+}
+
+h1 {
+  color: #f16161;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+h1 span {
+  font-weight: 300;
+}
+
+p {
+  font-family: "Oxygen", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: #74cabf;
+}
+
+.main-container .icon {
+  font-size: 60px;
+  color: #fff;
+  top: 40%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.main-container header {
+  font-family: "Oxygen", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.main-container input {
+  font-family: "Oxygen", sans-serif;
+  color: #fff;
+  background-color: #afac99;
+  border: 3px dashed #557968;
+  border-radius: 20px;
+  padding-top: 175px;
+  padding-bottom: 35px;
+  display: block;
+  transition: transform 0.2s;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  width: 90%;
+}
+
+input:hover {
+  background-color: #d8d3bd;
+  border: 3px dashed #89ac68;
+  transform: scale(1.05);
+}
+
+::-webkit-file-upload-button {
+  background-color: #b2dedd00;
+  border-style: none;
+  color: #b2dedd00;
+  cursor: pointer;
+  padding-left: 30%;
+  padding-right: 9%;
+}
+
+.main-container button {
+  background-color: #89ac68;
+  border-style: none;
+  border-radius: 30px;
+  padding: 10px 40px;
+  font-size: 15px;
+  font-family: "Oxygen", sans-serif;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:hover {
+  background-color: #f16161;
+}
+
+/* For desktop: */
+[class*="col-"] {
+  width: 100%;
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
